@@ -9,6 +9,21 @@
 html,body{
     height:100%
 }
+.invited-main{
+    margin-top: 40px;
+    color:#413a38;
+    background:rgba(0,0,0,0) url("../images/ribbon-lime.svg") no-repeat center top;
+    height:130px;
+    padding-top:17px;
+    font-weight:bold;
+    margin-bottom:15px;
+    opacity:.85
+}
+.invited-to{
+    font-size: 35px;
+    font-family:"Satisfy",cursive;
+    font-weight: bold
+}
 body{
     font-family:"Montserrat",arial,sans-serif;
     color:#413a38;
@@ -345,7 +360,7 @@ label{
     height:39px
 }
 .wedding-section{
-    padding-top:90px
+    padding-top:40px
 }
 .wedding-section .title{
     margin-bottom:30px
