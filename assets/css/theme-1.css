@@ -276,7 +276,7 @@ label{
     color:rgba(255,255,255,.6);
     font-weight:normal
 }
-.footer a{
+.footer .prayer a{
     color:#f4af9c
 }
 .footer a:hover{
@@ -314,11 +314,9 @@ label{
 .hero-box{
     background:rgba(0,0,0,.6);
     color:rgba(255,255,255,.85);
-    padding:30px;
-    padding-top:90px;
-    padding-bottom:60px;
+    padding-top: 60px;
+    padding-bottom: 50px;
     position: relative;
-    /* margin-left: 10px; */
     height:760px
 }
 .hero-box .date{
@@ -326,7 +324,7 @@ label{
     color:#413a38;
     background:rgba(0,0,0,0) url("../images/ribbon-lime.svg") no-repeat center top;
     height:126px;
-    padding-top:12px;
+    padding-top: 15px;
     font-weight:bold;
     margin-bottom:15px;
     -webkit-opacity:.85;
