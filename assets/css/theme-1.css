@@ -14,13 +14,13 @@ html,body{
     color:#413a38;
     background:rgba(0,0,0,0) url("../images/ribbon-silver.svg") no-repeat center top;
     height: 120px;
-    padding-top: 25px;
+    padding-top: 30px;
     font-weight:bold;
     margin-bottom:15px;
     opacity:.85
 }
 .invited-to{
-    font-size: 35px;
+    font-size: 30px;
     font-family:"Satisfy",cursive;
     font-weight: bold
 }
@@ -317,7 +317,8 @@ label{
     padding:30px;
     padding-top:90px;
     padding-bottom:60px;
-    margin-left: 100px;
+    position: relative;
+    /* margin-left: 10px; */
     height:760px
 }
 .hero-box .date{
@@ -333,11 +334,11 @@ label{
     opacity:.85
 }
 .headline .names{
-    font-size:76px;
-    /* margin-bottom:10px */
+    font-size:72px;
+    margin-bottom:10px
 }
 .headline .statement{
-    font-size:36px;
+    font-size:34px;
     margin-bottom:30px
 }
 .headline .statement-text{
@@ -390,7 +391,7 @@ label{
     margin-bottom:30px
 }
 .wedding-section .intro{
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom:30px;
     color:#786b67
 }
