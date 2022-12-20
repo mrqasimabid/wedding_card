@@ -10,11 +10,11 @@ html,body{
     height:100%
 }
 .invited-main{
-    margin-top: 40px;
+    margin-top: 80px;
     color:#413a38;
-    background:rgba(0,0,0,0) url("../images/ribbon-lime.svg") no-repeat center top;
-    height:130px;
-    padding-top:17px;
+    background:rgba(0,0,0,0) url("../images/ribbon-silver.svg") no-repeat center top;
+    height: 120px;
+    padding-top: 25px;
     font-weight:bold;
     margin-bottom:15px;
     opacity:.85
