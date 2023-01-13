@@ -10,13 +10,13 @@ html,body{
     height:100%
 }
 .invited-main{
-    margin-top: 80px;
+    /* margin-top: 20px; */
     color:#413a38;
     background:rgba(0,0,0,0) url("../images/ribbon-silver.svg") no-repeat center top;
     height: 120px;
     padding-top: 30px;
     font-weight:bold;
-    margin-bottom:15px;
+    /* margin-bottom:15px; */
     opacity:.85
 }
 .invited-to{
@@ -36,12 +36,12 @@ p{
     line-height:1.5
 }
 a{
-    color:#f4af9c;
+    color:#d76dec;
     text-decoration:none
 }
 a:hover, a:active{
     text-decoration:underline;
-    color:#e08b73;
+    color:#be3abe;
     -webkit-transition:all .4s ease-in-out;
     -moz-transition:all .4s ease-in-out;
     -ms-transition:all .4s ease-in-out;
@@ -314,7 +314,7 @@ label{
 .hero-box{
     background:rgba(0,0,0,.6);
     color:rgba(255,255,255,.85);
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 50px;
     position: relative;
     height:760px
@@ -332,8 +332,12 @@ label{
     opacity:.85
 }
 .headline .names{
-    font-size:72px;
-    margin-bottom:10px
+    font-size:50px;
+}
+.invite{
+    font-size:20px;
+    font-family:"Comic Sans MS", cursive;
+    font-style: normal;
 }
 .headline .statement{
     font-size:34px;

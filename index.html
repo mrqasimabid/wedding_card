@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Nikkah Invitation</title>
+    <title>Wedding Invitation</title>
     <link rel = "icon" href = 
         "https://www.pngfind.com/pngs/m/29-297719_transparent-flowers-most-popular-flowers-pink-garden-pink.png" 
         type = "image/x-icon">
@@ -24,9 +24,6 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
 
 	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-
-
-
 </head>
 <body>
   
@@ -39,9 +36,10 @@
             </button> 
             <div id="navbar-collapse" class="navbar-collapse collapse text-center justify-content-center">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link scrollto" href="#main">Main</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#wedding">Nikkah Invitation</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#main">Wedding Invitation</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#time-left">Time Left</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#time-venue">Time & Venue</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#map">Location</a></li>
                     <!-- <li class="nav-item"><a class="nav-link scrollto" href="#gallery">Gallery</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link scrollto" href="#gift">Registries</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#rsvp-modal">RSVP</a></li> -->
@@ -51,64 +49,121 @@
     </div>
 </header>
 
-
-<div id="main" class="container-fluid hero-section">
+<!-- bride main section -->
+<!-- <section id="main" class="container-fluid hero-section">
     <div class="container hero-box text-center">
+        <div class="container invited-main text-center">
+            <h4>
+                <span class="invited-to">To  </span>
+                <span class="invited-to" id="XyZ"> Mr & Mrs Zuraiz</span>
+            </h4>
+        </div>
         <h1 class="headline script">
-            <span class="names display-block">Ehteshaam<br>&<br>Fatima</span>
-            <span class="statement display-block">
-                <span class="swirl-left"></span>
-                <span class="statement-text">are getting Nikahfied</span>
-                <span class="swirl-right"></span>
-            </span><!--//statement-->
-        </h1><!--/headline-->
-        <!-- <p style="font-size: 30px; font-family:'Satisfy',cursive;">on</p> -->
-        <div class="date">
-            <span class="date-text">January 21, 2023</span>
-        </div><!--//date-->
-        <h1 class="headline script">
-            <span class="statement display-block">
-                <span class="statement-text">IN SHA ALLAH</span>
-            </span>
+            <p class="invite mb-3" style="font-size: 28px; font-weight: bold; color:#db908c;">بسم الله الرحمن الرحيم</p>
+            <span class="names display-block mb-3">Mr & Mrs Anwaar ul Haq Tahir</span>
+            <span class="invite">request the pleasure of your company at the wedding ceremony
+                <br>of their beloved daughter</span>
+            <span class="names display-block mt-3">Aimen Anwaar</span>
+            <span style="font-size: 20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">with</span>
+            <span class="names display-block mb-3">Muhammad Qasim Abid</span>
         </h1>
-        <!-- <a class="btn btn-primary btn-rsvp" href="#" data-bs-toggle="modal" data-bs-target="#rsvp-modal">RSVP Now</a> -->
+        <p class="invite" style="font-size: 26px; font-weight: bold; color:#db908c;">IN SHA ALLAH</p>
+        <div class="date">
+            <span>February 11, 2023</span>
+        </div>
         <div class="curve-holder"></div>
     </div>
-</div>
-<div id="wedding" class="container invited-main text-center">
-    <h4>
-        <span class="invited-to">To  </span>
-        <span class="invited-to" id="XyZ"> Mr & Mrs Zuraiz</span>
-    </h4>
-</div>
-<div class="container wedding-section text-center">
-    <h3 class="title script">
+</section> -->
+
+<!-- groom main section -->
+<section id="main" class="container-fluid hero-section">
+    <div class="container hero-box text-center">
+        <div class="container invited-main text-center">
+            <h4>
+                <span class="invited-to">To  </span>
+                <span class="invited-to" id="XyZ"> Mr & Mrs Zuraiz</span>
+            </h4>
+        </div>
+        <h1 class="headline script">
+            <p class="invite mb-3" style="font-size: 28px; font-weight: bold; color:#db908c;">بسم الله الرحمن الرحيم</p>
+            <span class="names display-block mb-3">Mr & Mrs Abid Hussain</span>
+            <span class="invite">request the pleasure of your company at the wedding ceremony
+                <br>of their beloved son</span>
+            <span class="names display-block mt-3">Muhammad Qasim Abid</span>
+            <span style="font-size: 20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">with</span>
+            <span class="names display-block mb-3">Aimen Anwaar</span>
+        </h1>
+        <p class="invite" style="font-size: 26px; font-weight: bold; color:#db908c;">IN SHA ALLAH</p>
+        <div class="date">
+            <span>February 11, 2023</span>
+        </div>
+        <div class="curve-holder"></div>
+    </div>
+</section>
+
+<!-- barat section -->
+<!-- <section class="container wedding-section text-center">
+    <h3 id="time-left" class="title script">
         <span class="title-deco-left"></span>
-        <span class="title-text">Nikkah</span>
+        <span class="title-text">Barat</span>
         <span class="title-deco-right"></span>
     </h3>
     <div id="countdown-box" class="countdown-box"></div>
     <div id="time-venue" class="ceremony-col">
         <div class="col-inner">
-            <h4 class="subtitle">Ceremony</h4>
+            <h4 class="subtitle">Time & Venue</h4>
             <p class="intro">You are invited to join us in celebrating
-                 a day of love and commitment as we unite in this beautiful relation!</p>
-            <ul class="meta-list list-unstyled text-start center-block">
-                <li><span class="fa fa-calendar love-icon"></span>Saturday - January 21st, 2023</li>
-                <li><span class="fa fa-clock love-icon"></span>5:00 pm</li>
-                <li><span class="fa fa-location love-icon"></span>AHQ Officers' Mess</li>
-                <li><span class="fa fa-map love-icon"></span>Main Margalla Rd, near PAF Hospital Unit 2, E-9/1 E-9, Islamabad, Islamabad Capital Territory</li>
-            </ul>
+                 a day of love and commitment as we unite<br>our children in this beautiful relation!</p>            
+            <ul class="meta-list list-unstyled text-start">
+                <li><span class="fa fa-calendar love-icon"></span>Saturday - February 11, 2023</li>
+                <li><span class="fa fa-location love-icon"></span>Silver Spoon Marquee</li>
+                <li><span class="fa fa-map love-icon"></span>East Canal Road Near LGS School, Faisalabad</li>
+                <br>
+                <li><span class="fa fa-clock fa-spin love-icon"></span>Arrival of Barat: 1:00 pm</li>
+                <li><span class="fa fa-lock love-icon"></span>Nikkah: 2:00 pm</li>
+                <li><span class="fa fa-cutlery love-icon"></span>Lunch: 3:00 pm</li>
+                <li><span class="fa fa-heart love-icon"></span>Rukhsati: 4:00 pm</li>
+            </ul>            
         </div>
     </div>
-</div>
-<br>
-<div id="map" class="container map-container">
+    <br>
+    <br>
+    <div id="map" class="container map-container">
+        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0466783365623!2d73.01063931429633!3d33.70774104325503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf2b64226343%3A0x7c24a5851cf5f6bc!2sAHQ%20Officers&#39;%20Mess!5e0!3m2!1sen!2s!4v1671637969400!5m2!1sen!2s" width="640" height="480"></iframe> 
+    </div>
+</section>
+<br> -->
 
-    <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0466783365623!2d73.01063931429633!3d33.70774104325503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf2b64226343%3A0x7c24a5851cf5f6bc!2sAHQ%20Officers&#39;%20Mess!5e0!3m2!1sen!2s!4v1671637969400!5m2!1sen!2s" width="640" height="480"></iframe> 
+<!-- walima section -->
+<section class="container wedding-section text-center">
+    <h3 class="title script">
+        <span class="title-deco-left"></span>
+        <span class="title-text">Walima</span>
+        <span class="title-deco-right"></span>
+    </h3>
+    <div id="countdown-box" class="countdown-box"></div>
+    <div id="time-venue" class="ceremony-col">
+        <div class="col-inner">
+            <h4 class="subtitle">Time & Venue</h4>
+            <p class="intro">You are invited to the Walima Reception of <b>Qasim</b> & <b>Aimen</b>.
+            <br>Come celebrate with us as they embark on this new journey together!</p>
+            <ul class="meta-list list-unstyled text-start">
+                <li><span class="fa fa-calendar love-icon"></span>Sunday - February 12, 2023</li>
+                <li><span class="fa fa-location love-icon"></span>Quillim Marquee</li>
+                <li><span class="fa fa-map love-icon"></span>West Canal Road, Faisalabad</li>
+                <br>
+                <li><span class="fa fa-clock fa-spin love-icon"></span>Recption: 2:00 pm</li>
+                <li><span class="fa fa-cutlery love-icon"></span>Lunch: 3:00 pm</li>
+            </ul>            
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="map" class="container map-container">
+        <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0466783365623!2d73.01063931429633!3d33.70774104325503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf2b64226343%3A0x7c24a5851cf5f6bc!2sAHQ%20Officers&#39;%20Mess!5e0!3m2!1sen!2s!4v1671637969400!5m2!1sen!2s" width="640" height="480"></iframe> 
+    </div>
+</section>
 
-
-</div>
 <br>
 <br>
 
@@ -118,37 +173,31 @@
             <div class="prayer">
                 O Allah, You are the Loving (Al Wadud) and the Merciful (Al Rehman).
                 Please put love and mercy in the hearts of this couple for each other.
-                <!-- <a href="http://themes.3rdwavemedia.com/" target="_blank">
-                    3rd Wave Media
-                </a> -->
             </div>
         </div>
     </div>
 </footer>
+
 <script>
-
-function decryptValue(enc){
-    return atob(enc);
-}
-//Function to get the value from the URL
-function getURLParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    var results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-};
-name=getURLParameter('XyZ')
-dnc=decryptValue(name);
-if(dnc==""){
-    document.getElementById('wedding').style.display="none"
-}else{
-    
-    document.getElementById('XyZ').innerHTML=dnc
-}
-
-
-
+    function decryptValue(enc){
+        return atob(enc);
+    }
+    //Function to get the value from the URL
+    function getURLParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+    name=getURLParameter('XyZ')
+    dnc=decryptValue(name);
+    if(dnc==""){
+        document.getElementById('wedding').style.display="none"
+    }else{
+        document.getElementById('XyZ').innerHTML=dnc
+    }
 </script>
+
 <!-- Main Javascript -->          
 <script src="assets/plugins/popper.min.js"></script> 
 <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
