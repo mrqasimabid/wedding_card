@@ -21,7 +21,7 @@ html,body{
 }
 .invited-to{
     font-size: 30px;
-    font-family:"Satisfy",cursive;
+    font-family:"Alex Brush";
     font-weight: bold
 }
 body{
@@ -123,8 +123,8 @@ a.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:hover,
     box-shadow:none
 }
 .script{
-    font-family:"Satisfy",cursive;
-    font-weight:bold
+    font-family:"Alex Brush";
+    /* font-weight:bold */
 }
 input[type=text],input[type=email],input[type=password],input[type=submit],input[type=button],textarea{
     -moz-appearance:none;
