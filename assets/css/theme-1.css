@@ -124,7 +124,7 @@ a.btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:hover,
 }
 .script{
     font-family:"Alex Brush";
-    /* font-weight:bold */
+    /* font-weight: 500 */
 }
 input[type=text],input[type=email],input[type=password],input[type=submit],input[type=button],textarea{
     -moz-appearance:none;
@@ -177,6 +177,7 @@ label{
 }
 .title .title-text{
     display:inline-block;
+    font-weight: 900;
     padding-left:15px;
     padding-right:15px
 }
