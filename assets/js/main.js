@@ -1,42 +1,5 @@
 "use strict";
 
-/* ===== Smooth scrolling ====== */
-/*  Note: You need to include smoothscroll.min.js (smooth scroll behavior polyfill) on the page to cover some browsers */
-/* Ref: https://github.com/iamdustan/smoothscroll */
-
-
-let scrollLinks = document.querySelectorAll('.scrollto');
-const pageNavWrapper = document.getElementById('navbar-collapse');
-
-scrollLinks.forEach((scrollLink) => {
-
-	scrollLink.addEventListener('click', (e) => {
-		
-		e.preventDefault();
-
-		let element = document.querySelector(scrollLink.getAttribute("href"));
-		
-		const yOffset = 55; //page .header height
-		
-		//console.log(yOffset);
-		
-		const y = element.getBoundingClientRect().top + window.pageYOffset - yOffset;
-		
-		window.scrollTo({top: y, behavior: 'smooth'});
-		
-		
-		//Collapse mobile menu after clicking
-		if (pageNavWrapper.classList.contains('show')){
-			pageNavWrapper.classList.remove('show');
-		}
-
-		
-    });
-	
-});
-
-/* ===== Gumshoe SrollSpy ===== */
-/* Ref: https://github.com/cferdinandi/gumshoe  */
 
 // Initialize Gumshoe
 var spy = new Gumshoe('.main-nav .nav-link', {
@@ -107,43 +70,6 @@ CountDown("February 11, 2023",'countdown-box-barat')
 CountDown("February 12, 2023",'countdown-box-walima')
 
     
-/* ===== Packery ===== */
-//Ref: http://packery.metafizzy.co/
-//Ref: http://imagesloaded.desandro.com/
-var elem = document.getElementById('photos-wrapper');
-var pckry = new Packery( elem, {
-  // options
-  itemSelector: '.item',
-  percentPosition: true
-});
 
 
-/* ====== SimpleLightbox Plugin ======= */
-/*  Ref: https://github.com/andreknieriem/simplelightbox */
-
-var lightbox = new SimpleLightbox('#photos-wrapper .gallery-link', {
-	//Options
-	animationSlide:false
-});
-
-  
-const guestNumber = document.getElementById('cguests');   
-const guestInfoField = document.querySelector('.guestinfo-group');   
-const guestInfoInput = document.getElementById('cguestinfo');  
-
-guestNumber.addEventListener('change', function(e){
-	if (guestNumber.value) {
-		guestInfoField.style.display = "none"; //hide
-		guestInfoInput.value = " "; //Clear data
-		console.log('not selected');
-	} else if (guestNumber.value == "No Guests") {
-		guestInfoField.style.display = "none"; //hide
-		guestInfoInput.value = 'No Guests';
-		console.log('No guests');
-	} else {
-		guestInfoField.style.display = "block"; //show
-		guestInfoInput.value = " "; //Clear data
-		console.log('Has guests');
-	}
-});
     
