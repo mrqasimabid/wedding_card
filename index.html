@@ -85,8 +85,8 @@
     <div class="container hero-box text-center">
         <div class="container invited-main text-center">
             <h4>
-                <span class="invited-to">To  </span>
-                <span class="invited-to" id="XyZ"> Mr & Mrs Zuraiz</span>
+                <!-- <span class="invited-to">To  </span> -->
+                <span class="invited-to" id="XyZ"></span>
             </h4>
         </div>
         <h1 class="headline script mb-4 pb-4">
@@ -111,19 +111,19 @@
 <br><br>
 
 <ul class="nav nav-tabs justify-content-center">
-    <li class="nav-item"><a data-toggle="tab" href="#barat">Barat</a></li>
-    <li class="active nav-item"><a data-toggle="tab" href="#walima">Walima</a></li>
+    <li id="barat-link" class="active nav-item"><a data-toggle="tab" href="#barat">Barat</a></li>
+    <li id="walima-link" class=" nav-item"><a data-toggle="tab" href="#walima">Walima</a></li>
 </ul>
 
 <div class="tab-content">
     <!-- barat section -->
-    <div id="barat" class="tab-pane fade container wedding-section text-center">
+    <div id="barat" class="tab-pane fade in active container wedding-section text-center">
         <h3 id="time-left" class="title script">
             <span class="title-deco-left"></span>
             <span class="title-text">Barat</span>
             <span class="title-deco-right"></span>
         </h3>
-        <div id="countdown-box" class="countdown-box"></div>
+        <div id="countdown-box-barat" class="countdown-box"></div>
         <div id="time-venue" class="ceremony-col">
             <div class="col-inner">
                 <h4 class="subtitle">Time & Venue</h4>
@@ -144,19 +144,20 @@
         <br>
         <br>
         <div id="map" class="container map-container">
-            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0466783365623!2d73.01063931429633!3d33.70774104325503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf2b64226343%3A0x7c24a5851cf5f6bc!2sAHQ%20Officers&#39;%20Mess!5e0!3m2!1sen!2s!4v1671637969400!5m2!1sen!2s" width="640" height="480"></iframe> 
+           
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54477.374216659184!2d73.08173784099866!3d31.418647339113665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392268e2586f3fd7%3A0x10e87e0f5d7c4586!2sSilver%20Spoon%20Marquee!5e0!3m2!1sen!2s!4v1675317401806!5m2!1sen!2s" width="640" height="480"></iframe> 
         </div>
     </div>
     <br>
 
     <!-- walima section -->
-    <div id="walima" class="tab-pane fade in active container wedding-section text-center">
+    <div id="walima" class="tab-pane fade in container wedding-section text-center">
         <h3 class="title script">
             <span class="title-deco-left"></span>
             <span class="title-text">Walima</span>
             <span class="title-deco-right"></span>
         </h3>
-        <div id="countdown-box" class="countdown-box"></div>
+        <div id="countdown-box-walima" class="countdown-box"></div>
         <div id="time-venue" class="ceremony-col">
             <div class="col-inner">
                 <h4 class="subtitle">Time & Venue</h4>
@@ -175,7 +176,8 @@
         <br>
         <br>
         <div id="map" class="container map-container">
-            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0466783365623!2d73.01063931429633!3d33.70774104325503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf2b64226343%3A0x7c24a5851cf5f6bc!2sAHQ%20Officers&#39;%20Mess!5e0!3m2!1sen!2s!4v1671637969400!5m2!1sen!2s" width="640" height="480"></iframe> 
+            
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54481.326940887084!2d73.06988509095531!3d31.411841039694163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392268509e1281f9%3A0xbe6fe8dcb8e164a8!2sRoyal%20Palm%20Marquee!5e0!3m2!1sen!2s!4v1675317335094!5m2!1sen!2s" width="640" height="480"></iframe> 
         </div>
     </div>
 </div>

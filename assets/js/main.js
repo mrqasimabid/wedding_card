@@ -52,16 +52,14 @@ addBackToTop({
 });
 
 
-    
-/* ======= Countdown ========= */
-// set the date we're counting down to
-var target_date = new Date("February 11, 2023").getTime();
+function CountDown(date,id) {
+	var target_date = new Date(date).getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;
  
 // get tag element
-var countdown =  document.getElementById("countdown-box");
+var countdown =  document.getElementById(id);
 var days_span = document.createElement("SPAN");
 days_span.className = 'days';
 countdown.appendChild(days_span);
@@ -103,7 +101,10 @@ setInterval(function () {
    // + minutes + "m, " + seconds + "s";  
  
 }, 1000);
-     
+}
+
+CountDown("February 11, 2023",'countdown-box-barat')
+CountDown("February 12, 2023",'countdown-box-walima')
 
     
 /* ===== Packery ===== */
